@@ -1,0 +1,1 @@
+java -jar C:\Users\Admin\.m2\repository\org\apache\avro\avro-tools\1.7.7\avro-tools-1.7.7.jar compile schema G:\Coding\Java\IdeaProjects\Maven_Practice\src\test\Java\WorkingWithAvro\schema.avsc G:\Coding\Java\IdeaProjects\Maven_Practice\src\test\Java\WorkingWithAvro\
