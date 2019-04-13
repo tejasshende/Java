@@ -1,0 +1,11 @@
+{
+  "type" : "record",
+  "namespace" : "WorkingWithAvro",
+  "name" : "BitBucketSchema",
+  "fields" : [
+    { "name" : "id" , "type" : "string" },
+    { "name" : "name" , "type" : "string" },
+    { "name" : "emailAddress" , "type" : "string" },
+    { "name" : "authorTimestamp" , "type" : "string" }
+  ]
+}
