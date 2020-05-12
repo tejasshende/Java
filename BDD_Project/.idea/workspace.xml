@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b83a8743-47e0-4e63-b21d-126da230fed4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bnUfg1EU4CQAiWYk7OJR7zzFrO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550590657032" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/StepDefinations" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Coding\Java\IdeaProjects\BDD_Project\src\test\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\BDD_Project\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: Login to FB">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Login.feature" />
+      <option name="GLUE" value="StepDefinations" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BDD_Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login to FB" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Login.feature" />
+      <option name="GLUE" value="StepDefinations" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BDD_Project" />
+      <option name="NAME_FILTER" value="^Login to FB$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Login to FB$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login to FB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDD_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.RunTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: Login to FB" />
+        <item itemvalue="TestNG.RunTest" />
+        <item itemvalue="Cucumber java.Feature: Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b83a8743-47e0-4e63-b21d-126da230fed4" name="Default Changelist" comment="" />
+      <created>1550589853078</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550589853078</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="51" key="#Project_Structure" timestamp="1589267474242">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="361" y="51" key="#Project_Structure/0.0.1536.783@0.0.1536.783" timestamp="1589267474242" />
+    <state x="477" y="40" key="#RunTest" timestamp="1589275519108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="477" y="40" key="#RunTest/0.0.1536.783@0.0.1536.783" timestamp="1589275519108" />
+    <state x="518" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589271328072">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="518" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.783@0.0.1536.783" timestamp="1589271328072" />
+    <state x="548" y="148" key="FileChooserDialogImpl" timestamp="1589272597832">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="548" y="148" key="FileChooserDialogImpl/0.0.1536.783@0.0.1536.783" timestamp="1589272597832" />
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1589279688108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.783@0.0.1536.783" timestamp="1589279688108" />
+    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1589279688108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.783@0.0.1536.783" timestamp="1589279688108" />
+    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1589279688108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.783@0.0.1536.783" timestamp="1589279688108" />
+    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1589279688108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.783@0.0.1536.783" timestamp="1589279688108" />
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom" timestamp="1589279687325">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom/0.0.1536.783@0.0.1536.783" timestamp="1589279687325" />
+    <state width="1493" height="245" key="GridCell.Tab.1.center" timestamp="1589279687325">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.center/0.0.1536.783@0.0.1536.783" timestamp="1589279687325" />
+    <state width="1493" height="245" key="GridCell.Tab.1.left" timestamp="1589279687325">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.left/0.0.1536.783@0.0.1536.783" timestamp="1589279687325" />
+    <state width="1493" height="245" key="GridCell.Tab.1.right" timestamp="1589279687325">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.783@0.0.1536.783" timestamp="1589279687325" />
+    <state x="299" y="47" key="Maven.ArtifactSearchDialog" timestamp="1589272940443">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="299" y="47" key="Maven.ArtifactSearchDialog/0.0.1536.783@0.0.1536.783" timestamp="1589272940443" />
+    <state x="521" y="314" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1589272608594">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="521" y="314" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.783@0.0.1536.783" timestamp="1589272608594" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinations/LoginStepDef.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
