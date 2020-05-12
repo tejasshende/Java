@@ -7,6 +7,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="PRINT_LINE_NUMBERS" value="true" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -28,8 +34,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/input" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -70,30 +76,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="514" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589113929922">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="514" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.783@0.0.1536.783" timestamp="1589113929922" />
     <state x="549" y="134" key="FileChooserDialogImpl" timestamp="1585658283615">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
     <state x="549" y="134" key="FileChooserDialogImpl/0.0.1536.783@0.0.1536.783" timestamp="1585658283614" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1585657136612">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1589173489155">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.783@0.0.1536.783" timestamp="1585657136612" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1585657136612">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.783@0.0.1536.783" timestamp="1589173489155" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1589173489155">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.783@0.0.1536.783" timestamp="1585657136612" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1585657136612">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.783@0.0.1536.783" timestamp="1589173489155" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1589173489155">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.783@0.0.1536.783" timestamp="1585657136612" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1585657136612">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.783@0.0.1536.783" timestamp="1589173489155" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1589173489155">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.783@0.0.1536.783" timestamp="1585657136612" />
-    <state x="326" y="69" key="SettingsEditor" timestamp="1585657963510">
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.783@0.0.1536.783" timestamp="1589173489155" />
+    <state x="326" y="69" key="SettingsEditor" timestamp="1587629714702">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state x="326" y="69" key="SettingsEditor/0.0.1536.783@0.0.1536.783" timestamp="1585657963510" />
+    <state x="326" y="69" key="SettingsEditor/0.0.1536.783@0.0.1536.783" timestamp="1587629714702" />
+    <state width="585" height="446" key="SwitcherDM" timestamp="1589115698756">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="585" height="446" key="SwitcherDM/0.0.1536.783@0.0.1536.783" timestamp="1589115698756" />
+    <state x="209" y="13" key="new project wizard" timestamp="1587823672233">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="209" y="13" key="new project wizard/0.0.1536.783@0.0.1536.783" timestamp="1587823672233" />
+    <state x="425" y="177" key="run.anything.popup" timestamp="1587128137378">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="425" y="177" key="run.anything.popup/0.0.1536.783@0.0.1536.783" timestamp="1587128137378" />
   </component>
   <component name="masterDetails">
     <states>
