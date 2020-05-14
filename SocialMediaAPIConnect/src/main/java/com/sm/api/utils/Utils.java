@@ -1,6 +1,7 @@
 package com.sm.api.utils;
 
 import java.io.FileInputStream;
+import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Properties;
 
@@ -32,4 +33,19 @@ public class Utils {
         // returning the HashMap
         return propHashMap;
     }
+
+    //Format the number like 1000 to 1K, 1000000 to 1M
+    public String formatNumber(int inpNumber){
+        String[] suffix = new String[]{"","K", "M", "B", "T"};
+        int MAX_LENGTH = 4;
+
+        String formattedNumber = new DecimalFormat("##0E0").format(inpNumber);
+        formattedNumber = formattedNumber.replaceAll("E[0-9]", suffix[Character.getNumericValue(formattedNumber.charAt(formattedNumber.length() - 1)) / 3]);
+        while(formattedNumber.length() > MAX_LENGTH || formattedNumber.matches("[0-9]+\\.[a-z]")){
+            formattedNumber = formattedNumber.substring(0, formattedNumber.length()-2) + formattedNumber.substring(formattedNumber.length() - 1);
+        }
+        // retuning the formatted number
+        return formattedNumber;
+    }
+
 }

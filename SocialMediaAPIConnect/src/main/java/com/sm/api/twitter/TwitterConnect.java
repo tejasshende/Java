@@ -5,6 +5,7 @@ import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 
 import java.util.HashMap;
+import java.util.List;
 
 public class TwitterConnect {
 
@@ -12,11 +13,12 @@ public class TwitterConnect {
     TwitterFactory tf = null;
     Twitter twitter = null;
     HashMap<String, String> twitterProp = new HashMap<String, String>();
-    
+    Utils utils = null;
+
     //constructor
     public TwitterConnect(){
-        Utils utils = new Utils();
-        twitterProp = utils.readPropertyFile("src/main/java/com/sm/trendanalysis/twitter/twitter.properties");
+        utils = new Utils();
+        twitterProp = utils.readPropertyFile("src/main/java/com/sm/api/twitter/twitter.properties");
         twitter = this.getTwitterAuthObject();
     }
 
@@ -49,7 +51,6 @@ public class TwitterConnect {
 
     //This method will give the location wise / woeid wise trend
     public void getLocationWiseTrends(int locationID){
-
         try {
             //getting the authorised twitter object
             //twitter = this.getTwitterAuthObject();
@@ -165,15 +166,96 @@ public class TwitterConnect {
         }
     }
 
+    //This method will get the tweets for specified HashTag
+    public void getTweetsForSpecifiedHashtag(String hashtag){
+        try {
+            Query query = new Query(hashtag);
+            QueryResult result;
+            int Count=0;
+            do {
+                result = twitter.search(query);
+                List<Status> tweets = result.getTweets();
+                for (Status tweet : tweets) {
+                    System.out.println("@" + tweet.getUser().getScreenName() + ":" + tweet.getText());
+                    Count++;
+                }
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            while ((query = result.nextQuery()) != null);
+            System.out.println(Count);
+            System.exit(0);
+
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    //This method will get the count of tweets for specified HashTag
+    public void getCountOfTweetsForSpecifiedHashtag(String hashtag) {
+        int count = 0;
+        try {
+
+            Query query = new Query(hashtag);
+            QueryResult result;
+
+            System.out.println("Getting the count of tweets for hashtag " + hashtag);
+
+            do {
+                result = twitter.search(query);
+                List<Status> tweets = result.getTweets();
+                for (Status tweet : tweets) {
+                    count++;
+                }
+
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            while ((query = result.nextQuery()) != null);
+            System.out.println(hashtag + " has " + utils + " tweets");
+            System.exit(0);
+
+        } catch (Exception e){
+            System.out.println(hashtag + " has " + utils.formatNumber(count) + " tweets");
+            e.printStackTrace();
+        }
+
+            // One more way to get this done
+//            Query AA = new Query("%23" + hashtag);
+//            AA.setCount(100);
+//            //if (!statusid.equals("")) {
+//            //long l = Long.parseLong(statusid);
+//            //AA.setMaxId(l - 1);
+//            //}
+//            QueryResult result = twitter.search(AA);
+//            List<Status> statuslist = result.getTweets();
+//            long id = result.getMaxId();
+//
+//            System.out.println("count : " + result.getTweets().size());
+//
+//        } catch (TwitterException e) {
+//            e.printStackTrace();
+//        }
+    }
+
     //Main
     public static void main(String[] args) {
     TwitterConnect analysis = new TwitterConnect();
-    analysis.getLocationWiseTrends(2295412);
-    analysis.getUserTweets("twitter");
-    analysis.getUserRetweets();
-    analysis.getUserFavoriteTweets("twitter");
-    analysis.getFollowersInfo("twitter");
-    analysis.postATweet("First tweet from API...");
+//    analysis.getLocationWiseTrends(2295412);
+//    analysis.getUserTweets("twitter");
+//    analysis.getUserRetweets();
+//    analysis.getUserFavoriteTweets("twitter");
+//    analysis.getFollowersInfo("twitter");
+//    analysis.postATweet("First tweet from API...");
+//    analysis.getTweetsForSpecifiedHashtag("sambhajimaharaj");
+      analysis.getCountOfTweetsForSpecifiedHashtag("sambhajimaharaj");
     }
 }
 

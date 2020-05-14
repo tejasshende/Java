@@ -33,9 +33,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TwitterConnect">
     <configuration name="TwitterConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sm.api.twitter.TwitterConnect" />
       <module name="SocialMediaAPIConnect" />
@@ -45,6 +45,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SMAPIConnectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SocialMediaAPIConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sm.api.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sm.api.test.SMAPIConnectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SMAPIConnectTest.testGetLocationWiseTrends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SocialMediaAPIConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sm.api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sm.api.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sm.api.test.SMAPIConnectTest" />
+      <option name="METHOD_NAME" value="testGetLocationWiseTrends" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,6 +130,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TwitterConnect" />
+        <item itemvalue="JUnit.SMAPIConnectTest" />
+        <item itemvalue="JUnit.SMAPIConnectTest.testGetLocationWiseTrends" />
       </list>
     </recent_temporary>
   </component>
@@ -135,22 +168,22 @@
       <screen x="0" y="0" width="1536" height="783" />
     </state>
     <state x="549" y="147" key="FileChooserDialogImpl/0.0.1536.783@0.0.1536.783" timestamp="1589267453756" />
-    <state width="1492" height="245" key="GridCell.Tab.0.bottom" timestamp="1589267455661">
+    <state width="1492" height="184" key="GridCell.Tab.0.bottom" timestamp="1589473487161">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1492" height="245" key="GridCell.Tab.0.bottom/0.0.1536.783@0.0.1536.783" timestamp="1589267455661" />
-    <state width="1492" height="245" key="GridCell.Tab.0.center" timestamp="1589267455661">
+    <state width="1492" height="184" key="GridCell.Tab.0.bottom/0.0.1536.783@0.0.1536.783" timestamp="1589473487161" />
+    <state width="1492" height="184" key="GridCell.Tab.0.center" timestamp="1589473487161">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1492" height="245" key="GridCell.Tab.0.center/0.0.1536.783@0.0.1536.783" timestamp="1589267455661" />
-    <state width="1492" height="245" key="GridCell.Tab.0.left" timestamp="1589267455660">
+    <state width="1492" height="184" key="GridCell.Tab.0.center/0.0.1536.783@0.0.1536.783" timestamp="1589473487161" />
+    <state width="1492" height="184" key="GridCell.Tab.0.left" timestamp="1589473487160">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1492" height="245" key="GridCell.Tab.0.left/0.0.1536.783@0.0.1536.783" timestamp="1589267455660" />
-    <state width="1492" height="245" key="GridCell.Tab.0.right" timestamp="1589267455661">
+    <state width="1492" height="184" key="GridCell.Tab.0.left/0.0.1536.783@0.0.1536.783" timestamp="1589473487160" />
+    <state width="1492" height="184" key="GridCell.Tab.0.right" timestamp="1589473487161">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state width="1492" height="245" key="GridCell.Tab.0.right/0.0.1536.783@0.0.1536.783" timestamp="1589267455661" />
+    <state width="1492" height="184" key="GridCell.Tab.0.right/0.0.1536.783@0.0.1536.783" timestamp="1589473487161" />
     <state width="1492" height="245" key="GridCell.Tab.1.bottom" timestamp="1589267455661">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
@@ -167,14 +200,18 @@
       <screen x="0" y="0" width="1536" height="783" />
     </state>
     <state width="1492" height="245" key="GridCell.Tab.1.right/0.0.1536.783@0.0.1536.783" timestamp="1589267455661" />
+    <state x="349" y="127" key="IDE.errors.dialog" timestamp="1589447891656">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="349" y="127" key="IDE.errors.dialog/0.0.1536.783@0.0.1536.783" timestamp="1589447891656" />
     <state x="299" y="47" key="Maven.ArtifactSearchDialog" timestamp="1587916992343">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
     <state x="299" y="47" key="Maven.ArtifactSearchDialog/0.0.1536.783@0.0.1536.783" timestamp="1587916992343" />
-    <state x="277" y="35" key="SettingsEditor" timestamp="1587915402502">
+    <state x="277" y="35" width="962" height="714" key="SettingsEditor" timestamp="1589478235261">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
-    <state x="277" y="35" key="SettingsEditor/0.0.1536.783@0.0.1536.783" timestamp="1587915402502" />
+    <state x="277" y="35" width="962" height="714" key="SettingsEditor/0.0.1536.783@0.0.1536.783" timestamp="1589478235261" />
     <state x="425" y="177" key="run.anything.popup" timestamp="1589205682869">
       <screen x="0" y="0" width="1536" height="783" />
     </state>
