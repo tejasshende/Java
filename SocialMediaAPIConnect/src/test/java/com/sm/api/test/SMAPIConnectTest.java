@@ -28,4 +28,9 @@ public class SMAPIConnectTest
         twitterCon = null;
     }
 
+    @Test
+    public void getFollowersInfo() {
+        twitterCon.getFollowersInfo("tejasshende");
+
+    }
 }

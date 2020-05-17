@@ -18,13 +18,21 @@ public class Utils {
             if (fis != null) {
                 prop.load(fis);
 
-                //setting up the values in HashMap
-                propHashMap.put("consumerKey", prop.getProperty("consumerKey"));
-                propHashMap.put("consumerKeySecret", prop.getProperty("consumerKeySecret"));
-                propHashMap.put("accessTokenKey", prop.getProperty("accessTokenKey"));
-                propHashMap.put("accessTokenSecret", prop.getProperty("accessTokenSecret"));
-            } else {
-                System.out.println("property file '" + propFileName + "' not found");
+                if (propFileName.contains("twitter")) {
+                    //setting up the values in HashMap
+                    propHashMap.put("consumerKey", prop.getProperty("consumerKey"));
+                    propHashMap.put("consumerKeySecret", prop.getProperty("consumerKeySecret"));
+                    propHashMap.put("accessTokenKey", prop.getProperty("accessTokenKey"));
+                    propHashMap.put("accessTokenSecret", prop.getProperty("accessTokenSecret"));
+                } else if (propFileName.contains("fb")) {
+                    propHashMap.put("accessToken", prop.getProperty("accessToken"));
+                    propHashMap.put("appID", prop.getProperty("appID"));
+                    propHashMap.put("appSecret", prop.getProperty("appSecret"));
+                } else if (propFileName.contains("insta")) {
+                    propHashMap.put("accessToken", prop.getProperty("accessToken"));
+                } else {
+                    System.out.println("property file '" + propFileName + "' not found");
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();

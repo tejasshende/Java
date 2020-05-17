@@ -26,16 +26,12 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- Spark -->
+
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_2.11</artifactId>
       <version>2.3.2</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.sachinhandiekar</groupId>
-      <artifactId>jInstagram</artifactId>
-      <version>1.2.2</version>
     </dependency>
 
     <dependency>
@@ -50,11 +46,25 @@
       <version>2.3.2</version>
     </dependency>
 
+    <!-- Spark -->
+
+    <!-- Social Media -->
+
+    <dependency>
+      <groupId>com.restfb</groupId>
+      <artifactId>restfb</artifactId>
+      <version>3.6.0</version>
+    </dependency>
+
     <dependency>
       <groupId>org.twitter4j</groupId>
       <artifactId>twitter4j-core</artifactId>
       <version>4.0.4</version>
     </dependency>
+
+
+
+    <!-- SocialMedia -->
 
     <dependency>
       <groupId>org.json</groupId>
