@@ -26,6 +26,7 @@ public class FacebookConnect {
         accessToken = this.getLongLivedAccessToken(facebookProp.get("appID"), facebookProp.get("appSecret"));
         //re initializing the Facebook Client with Long Lived access token
         fbClient = new DefaultFacebookClient(accessToken.getAccessToken(), Version.LATEST);
+        System.out.println("Your Long lived access token will expire on " + accessToken.getExpires());
     }
 
     //This method will exchange short lived access with long lived access token
@@ -66,7 +67,7 @@ public class FacebookConnect {
                     cnt++;
                 }
             }
-            System.out.println("You've like total " + cnt + " pages");
+            System.out.println("You've liked total " + cnt + " pages");
         } catch(FacebookGraphException e){
         e.printStackTrace();
     }
@@ -93,9 +94,9 @@ public class FacebookConnect {
 
     public static void main(String[] args) {
         FacebookConnect fbConnect = new FacebookConnect();
-        fbConnect.getUserTimeline();
+        //fbConnect.getUserTimeline();
         fbConnect.getLikedPages();
-        fbConnect.getPageData("BillGates");
+        //fbConnect.getPageData("satarainfo");
 
     }
 
