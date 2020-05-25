@@ -16,6 +16,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <java.version>1.8</java.version>
+    <org.apache.spark.version>2.3.2</org.apache.spark.version>
+    <org.apache.spark.avro.version>2.4.3</org.apache.spark.avro.version>
+    <org.apache.spark.core.version>2.3.2</org.apache.spark.core.version>
+    <com.restfb.version>3.6.0</com.restfb.version>
+    <twitter4j.version>4.0.4</twitter4j.version>
   </properties>
 
   <dependencies>
@@ -27,43 +33,37 @@
     </dependency>
 
     <!-- Spark -->
-
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_2.11</artifactId>
-      <version>2.3.2</version>
+      <version>${org.apache.spark.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-avro_2.11</artifactId>
-      <version>2.4.3</version>
+      <version>${org.apache.spark.avro.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-core_2.11</artifactId>
-      <version>2.3.2</version>
+      <version>${org.apache.spark.core.version}</version>
     </dependency>
-
     <!-- Spark -->
 
     <!-- Social Media -->
-
     <dependency>
       <groupId>com.restfb</groupId>
       <artifactId>restfb</artifactId>
-      <version>3.6.0</version>
+      <version>${com.restfb.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.twitter4j</groupId>
       <artifactId>twitter4j-core</artifactId>
-      <version>4.0.4</version>
+      <version>${twitter4j.version}</version>
     </dependency>
-
-
-
     <!-- SocialMedia -->
 
     <dependency>

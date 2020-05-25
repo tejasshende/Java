@@ -94,9 +94,9 @@ public class FacebookConnect {
 
     public static void main(String[] args) {
         FacebookConnect fbConnect = new FacebookConnect();
-        fbConnect.getUserTimeline();
+        //fbConnect.getUserTimeline();
         fbConnect.getLikedPages();
-        fbConnect.getPageData("satarainfo");
+        //fbConnect.getPageData("satarainfo");
 
     }
 
